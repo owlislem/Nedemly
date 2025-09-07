@@ -4,7 +4,7 @@ import MobileNavigation from "./MobileNavigation";
 
 const Navbar = () => {
   return (
-    <nav className="flex-between bg-light-800  w-full fixed z-50 gap-5 p-6 sm:px-12 max-sm:bg-primary-100  ">
+    <nav className="flex-between bg-white  w-full fixed z-50 gap-5 p-6 sm:px-12 max-sm:bg-primary-100  ">
       <Link href="/" style={{ textDecoration: "none" }}>
         <p className="h2-bold font-space-grotesk text-black max-sm:text-white  ">
           Nedemly
