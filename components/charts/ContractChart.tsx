@@ -11,16 +11,15 @@ import {
 } from "recharts";
 
 const data = [
-  { name: "CDD", value: 90, color: "#ED1D1D" }, // أحمر
-  { name: "CDI", value: 170, color: "#2BC24B" }, // أخضر
-  { name: "Undefined", value: 35, color: "#F5FF38" }, // أصفر
+  { name: "CDD", value: 90, color: "#ED1D1D" }, 
+  { name: "CDI", value: 170, color: "#2BC24B" }, 
+  { name: "Undefined", value: 35, color: "#F5FF38" }, 
 ];
 
 export default function ContractChart() {
   return (
-    <div className="self-center w-[500px] max-md:w-[400px] max-sm:w-[320px] h-[400px] ">
+    <div className=" w-[500px] max-md:w-[400px] max-sm:w-[320px] h-[400px] ">
       {" "}
-      {/* حاوية مرنة */}
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />
