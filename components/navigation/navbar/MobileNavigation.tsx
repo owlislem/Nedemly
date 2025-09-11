@@ -13,7 +13,7 @@ import NavLinks from "./NavLinks";
 
 const MobileNavigation = () => {
   return (
-    <div className="sm:hidden">
+    <div className="xl:hidden">
       <Sheet>
         <SheetTrigger asChild>
           <Image
@@ -21,13 +21,13 @@ const MobileNavigation = () => {
             width={36}
             height={36}
             alt="Hamburger Icon"
-            className="invert sm:invert-0"
+            className="invert xl:invert-0"
           />
         </SheetTrigger>
 
         <SheetContent
           side="left"
-          className="w-[300px] md:w-[440px] bg-primary-100 sm:hidden border-none "
+          className="w-[300px] md:w-[340px] bg-primary-100 xl:hidden border-none "
         >
           <SheetHeader>
             <SheetTitle className="hidden">Navigation</SheetTitle>

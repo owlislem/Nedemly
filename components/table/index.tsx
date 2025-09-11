@@ -198,6 +198,70 @@ const Table = () => {
             </DropdownMenu>
           </div>
         </div>
+        <div className="bg-white p-4 rounded-lg shadow-sm">
+          <div className="flex items-center gap-3">
+            <Avatar>
+              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarFallback>CN</AvatarFallback>
+            </Avatar>
+            <div className="flex flex-col">
+              <Link className="font-semibold" href={"/"}>
+                Belkherchouche Soundes
+              </Link>
+              <p className="text-xs text-gray-500">
+                soundes.belkherchouche@gmail.com
+              </p>
+              <p className="text-sm text-gray-700">UI/UX Designer</p>
+              <p className="text-sm text-gray-700">Product</p>
+              <p className="text-sm text-gray-700">
+                Responsable: Amroaui Yacine
+              </p>
+            </div>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="ml-auto border-none focus:outline-none">
+                <span className="text-gray-500 hover:text-gray-700">...</span>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="bg-white">
+                <DropdownMenuItem>Profile</DropdownMenuItem>
+                <DropdownMenuItem>Billing</DropdownMenuItem>
+                <DropdownMenuItem>Team</DropdownMenuItem>
+                <DropdownMenuItem>Subscription</DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
+        </div>
+        <div className="bg-white p-4 rounded-lg shadow-sm">
+          <div className="flex items-center gap-3">
+            <Avatar>
+              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarFallback>CN</AvatarFallback>
+            </Avatar>
+            <div className="flex flex-col">
+              <Link className="font-semibold" href={"/"}>
+                Belkherchouche Soundes
+              </Link>
+              <p className="text-xs text-gray-500">
+                soundes.belkherchouche@gmail.com
+              </p>
+              <p className="text-sm text-gray-700">UI/UX Designer</p>
+              <p className="text-sm text-gray-700">Product</p>
+              <p className="text-sm text-gray-700">
+                Responsable: Amroaui Yacine
+              </p>
+            </div>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="ml-auto border-none focus:outline-none">
+                <span className="text-gray-500 hover:text-gray-700">...</span>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="bg-white">
+                <DropdownMenuItem>Profile</DropdownMenuItem>
+                <DropdownMenuItem>Billing</DropdownMenuItem>
+                <DropdownMenuItem>Team</DropdownMenuItem>
+                <DropdownMenuItem>Subscription</DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
+        </div>
       </div>
     </>
   );

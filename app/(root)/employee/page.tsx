@@ -15,6 +15,7 @@ import React from "react";
 // import { useRouter, useSearchParams } from "next/navigation";
 import Filter from "@/components/filter";
 import Table from "@/components/table";
+import Link from "next/link";
 
 // interface SearchParams {
 //   searchParams: Promise<{ [key: string]: string }>;
@@ -52,7 +53,9 @@ const Employee = () => {
                 height={12}
                 alt="Upload Icon"
               />
-              <p className="text-white">Add Employee</p>
+              <Link className="text-white" href={"/employee/new"}>
+                Add Employee
+              </Link>
             </div>
           </Button>{" "}
         </div>
@@ -63,7 +66,7 @@ const Employee = () => {
           <Filter />
         </div>
       </section>
-      <section className="employees-table mt-11 w-full bg-white py-4 px-4 ">
+      <section className="employees-table mt-11 w-full bg-white py-6 px-4 border border-[#BABABA] rounded-4xl ">
         <h1 className="h3-semibold flex items-center gap-4 ">
           Employee{" "}
           <span className="small-medium text-primary-100 px-4 py-2 bg-[#E0E9EE] rounded-2xl border border-[#E9EAEB]">

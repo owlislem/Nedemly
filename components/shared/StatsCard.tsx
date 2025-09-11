@@ -9,7 +9,7 @@ const StatsCard = ({
   typeControl,
 }: {
   title: string;
-  value: number;
+  value: number | string;
   analyticsLabel: string;
   displayControl?: boolean;
   typeControl?: string;

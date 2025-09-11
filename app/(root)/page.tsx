@@ -23,7 +23,7 @@ const page = () => {
           />
         ))}
       </div>
-      <div className="flex gap-4 max-md:flex-col">
+      <div className="flex gap-4 max-lg:flex-col">
         <div className="Stats py-6 px-6  bg-white  flex flex-col gap-4 flex-2  border border-[#BABABA] rounded-4xl">
           <h1 className="h3-bold">Repartition By Contract Type</h1>
           <ContractChart />
